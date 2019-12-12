@@ -1,6 +1,12 @@
 /* Colors */
-.red { color: #ff0000; }
+/*.red { color: #ff0000; }
 .orange { color: #ffa500; }
 .yellow { color: #ffff00; }
 .light-green { color: #90ee90; }
-.green { color: #008000; }
+.green { color: #008000; }*/
+
+.red,
+.orange,
+.yellow,
+.light-green,
+.green { color: #000000; }

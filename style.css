@@ -10,3 +10,19 @@
 .yellow,
 .light-green,
 .green { color: #000000; }
+
+@media print {
+  .border,
+  .border-right {
+    border-color: #000000 !important;
+  }
+
+  table, tr, td, td > a.text-light, i.text-light {
+    color: #000000 !important;
+  }
+
+  * {
+      color: #000000 !important;
+      background: none !important;
+  }
+}

@@ -27,6 +27,20 @@
       "Resolution of issues and conflicts within projects",
       "Delivery of progress reports, proposals, requirements documentation, and presentations"
     ]
-  }
+  },
+  {
+    "role" : "IT Project Manager Junior",
+    "company" : "Nuance Communications",
+    "period" : "January 2017 &ndash; April 2017",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "Internship within the Project Management Team of the Engineering Group, collaborating with the group's project managers as well as the development, quality assurance, and research teams. Participating in the most complex client project of the Nuance Cloud Services team with the role to actively support the main project manager assigned to the project.",
+    "roleDescription" : "",
+    "tasks"  : [
+      "Monitor the progress of tasks and objectives.",
+      "Participate in discussions and user story planning.",
+      "Work with different teams to update user stories.",
+      "Produce progress reports and update risks.",
+      "Reflect and propose improvements to working methods.",
+    ]
+  },
 ]
-

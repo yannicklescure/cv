@@ -38,9 +38,25 @@ const url = "https://raw.githubusercontent.com/yannicklescure/cv/master/experien
 
 console.log(url);
 fetch(url)
-.then(response => response.text())
+.then(response => response.json())
 .then(data => {
   console.log('parsed json', data);
+  data.forEach(work => {
+    let content = `
+      <p><strong>${work.role}</strong><br>${work.company}<br>${work.period} &ndash; ${work.location}</p>
+      <p class="text-muted">${work.companyDescription}</p>
+      <p class="text-muted">${work.roleDescription}</p>
+    `;
+    content += `<ul class="text-muted">`;
+    work.tasks.forEach(task => {
+      content += `
+          <li>${task}</li>
+      `;
+    });
+    content += `</ul>`;
+    document.querySelector('#work-experience').insertAdjacentHTML('beforeEnd', content);
+  });
+
 })
 .catch(ex => {
   console.log('parsing failed', ex);

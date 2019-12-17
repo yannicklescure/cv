@@ -34,7 +34,7 @@ const portfolioAnchor = document.querySelector('a[href="#collapsePortfolio"]');
 const portfolioBox = document.querySelector("#collapsePortfolio");
 collapseBox(portfolioAnchor, portfolioBox);
 
-const url = "experience.json";
+const url = "https://raw.githubusercontent.com/yannicklescure/cv/master/experience.json";
 console.log(url);
 fetch(url)
 .then(response => response.json())

@@ -1,31 +1,29 @@
-[
-  {
-    "role" : "Country Manager",
-    "company" : "BICRA",
-    "period" : "September 2018",
-    "location" : "Montreal, Canada/New York, USA",
-    "description" : "Founded in 2018 by privacy regulation professionals, Blockchain Industry Compliance and Regulation Association (BICRA) is a non-profit created to fill the gap between the worlds of blockchain and regulation. By forming a community of blockchain professionals, BICRA aims to ensure that members are in compliance with regulations all over the world through transparency and integrity. BICRA hopes to recognize those who are encompassing our values.",
-    "role description" : "",
-    "tasks"  : []
-  },
-  {
-    "role" : "IT Project Manager",
-    "company" : "Clears",
-    "period" : "March 2018 &ndash; September 2018",
-    "location" : "Montreal, Canada",
-    "company description" : "CLEARS is a financial clearing company with offices based in New-York, Montreal and Hong-Kong.",
-    "role description" : "The product manager is in charge to coordinate the Montreal office squaretup, managing the different projects.",
-    "tasks"  : [
-      "Management and control of the delivery of multiple concurrent projects of all sizes with strict deadlines and quality requirements",
-      "Delivers strategies which maximise project revenues, minimise costs, and ensure customer satisfaction",
-      "Management of the full project life-cycle from beginning to end",
-      "Determining the scope, deliverables and acceptance criteria for project",
-      "Working with developers, managers and other office&rsquo;s project manager to ensure every deliverables and deadlines are met in time.",
-      "Supervise and motivate resources involved in project deliveries in a matrix-management structure to ensure quality and consistency",
-      "Managing expectations of customer and company stakeholders",
-      "Delegation of tasks and responsibilities to appropriate personnel",
-      "Resolution of issues and conflicts within projects",
-      "Delivery of progress reports, proposals, requirements documentation, and presentations",
-    ]
-  }
-]
+{
+  "role" : "Country Manager",
+  "company" : "BICRA",
+  "period" : "September 2018",
+  "location" : "Montreal, Canada/New York, USA",
+  "description" : "Founded in 2018 by privacy regulation professionals, Blockchain Industry Compliance and Regulation Association (BICRA) is a non-profit created to fill the gap between the worlds of blockchain and regulation. By forming a community of blockchain professionals, BICRA aims to ensure that members are in compliance with regulations all over the world through transparency and integrity. BICRA hopes to recognize those who are encompassing our values.",
+  "role description" : "",
+  "tasks"  : []
+},
+{
+  "role" : "IT Project Manager",
+  "company" : "Clears",
+  "period" : "March 2018 &ndash; September 2018",
+  "location" : "Montreal, Canada",
+  "company description" : "CLEARS is a financial clearing company with offices based in New-York, Montreal and Hong-Kong.",
+  "role description" : "The product manager is in charge to coordinate the Montreal office squaretup, managing the different projects.",
+  "tasks"  : [
+    "Management and control of the delivery of multiple concurrent projects of all sizes with strict deadlines and quality requirements",
+    "Delivers strategies which maximise project revenues, minimise costs, and ensure customer satisfaction",
+    "Management of the full project life-cycle from beginning to end",
+    "Determining the scope, deliverables and acceptance criteria for project",
+    "Working with developers, managers and other office&rsquo;s project manager to ensure every deliverables and deadlines are met in time.",
+    "Supervise and motivate resources involved in project deliveries in a matrix-management structure to ensure quality and consistency",
+    "Managing expectations of customer and company stakeholders",
+    "Delegation of tasks and responsibilities to appropriate personnel",
+    "Resolution of issues and conflicts within projects",
+    "Delivery of progress reports, proposals, requirements documentation, and presentations",
+  ]
+}

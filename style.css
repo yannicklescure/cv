@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* Colors */
 /*.red { color: #ff0000; }
 .orange { color: #ffa500; }
@@ -10,6 +12,10 @@
 .yellow,
 .light-green,
 .green { color: #000000; }
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
 
 @media print {
   .border,

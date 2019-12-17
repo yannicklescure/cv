@@ -1,10 +1,25 @@
 [
   {
+    "role" : "Content creator",
+    "company" : "Youtube",
+    "period" : "November 2018 &ndash; Present",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "",
+    "roleDescription" : "Helping people cooking better at home. Showing step by step how to cook various recipes from all around the world.",
+    "tasks"  : [
+      "Cooking",
+      "Acting",
+      "Video editing",
+      "Youtube SEO",
+      "Community management"
+    ]
+  },
+  {
     "role" : "Co-Founder",
     "company" : "EUDPR (European Union Data Protection Representatives)",
-    "period" : "Dec 2018 – Present",
+    "period" : "December 2018",
     "location" : "Paris Area, France",
-    "companyDescription" : "Settled outside the European Union, our customers come from a wide range of industries, such as marketing companies, content providers or staffing solutions, however the list is not exhaustive.<br>They have in common the processing of personal data from EU residents, with the noteworthy exception they do not deal with sensitive data as defined by Article 9 of GDPR. In other words, our customers do not collect records of criminal convictions, or ethnicity, religious or philosophical beliefs, political opinions, trade union membership details, health, sex life, or sexual orientation data on a large scale.",
+    "companyDescription" : "Settled outside the European Union, our customers come from a wide range of industries, such as marketing companies, content providers or staffing solutions, however the list is not exhaustive. They have in common the processing of personal data from EU residents, with the noteworthy exception they do not deal with sensitive data as defined by Article 9 of GDPR. In other words, our customers do not collect records of criminal convictions, or ethnicity, religious or philosophical beliefs, political opinions, trade union membership details, health, sex life, or sexual orientation data on a large scale.",
     "roleDescription" : "",
     "tasks"  : []
   },

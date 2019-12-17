@@ -5,6 +5,7 @@ if (window.innerWidth >= 768) {
   console.log(window.innerWidth);
   const columnLeft = document.querySelector('#column-left');
   columnLeft.classList.add('sticky-top');
+  columnLeft.style = `width: 100%;height: calc(100vh);`;
 }
 
 const faSquares = document.querySelectorAll(".fa-square");

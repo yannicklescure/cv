@@ -38,7 +38,7 @@ const url = "https://raw.githubusercontent.com/yannicklescure/cv/master/experien
 
 console.log(url);
 fetch(url)
-.then(response => response.json())
+.then(response => response.text())
 .then(data => {
   console.log('parsed json', data);
 })

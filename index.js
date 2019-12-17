@@ -1,5 +1,12 @@
 console.log(`Thank you for visiting my code.
 If you read that message, visit https://github.com/yannicklescure/`);
+
+if (window.innerWidth >= 768) {
+  console.log(window.innerWidth);
+  const columnLeft = document.querySelector('#column-left');
+  columnLeft.classList.add('sticky-top');
+}
+
 const faSquares = document.querySelectorAll(".fa-square");
 faSquares.forEach(faSquare => {
   faSquare.classList.add("small");

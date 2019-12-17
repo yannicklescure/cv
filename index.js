@@ -35,9 +35,13 @@ const portfolioBox = document.querySelector("#collapsePortfolio");
 collapseBox(portfolioAnchor, portfolioBox);
 
 const url = "https://raw.githubusercontent.com/yannicklescure/cv/master/experience.json";
+
 console.log(url);
 fetch(url)
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  console.log('parsed json', data);
+})
+.catch(ex => {
+  console.log('parsing failed', ex);
 });

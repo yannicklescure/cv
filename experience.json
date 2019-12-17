@@ -5,8 +5,8 @@
       "company" : "BICRA",
       "period" : "September 2018",
       "location" : "Montreal, Canada/New York, USA",
-      "description" : "Founded in 2018 by privacy regulation professionals, Blockchain Industry Compliance and Regulation Association (BICRA) is a non-profit created to fill the gap between the worlds of blockchain and regulation. By forming a community of blockchain professionals, BICRA aims to ensure that members are in compliance with regulations all over the world through transparency and integrity. BICRA hopes to recognize those who are encompassing our values.",
-      "role description" : "",
+      "companyDescription" : "Founded in 2018 by privacy regulation professionals, Blockchain Industry Compliance and Regulation Association (BICRA) is a non-profit created to fill the gap between the worlds of blockchain and regulation. By forming a community of blockchain professionals, BICRA aims to ensure that members are in compliance with regulations all over the world through transparency and integrity. BICRA hopes to recognize those who are encompassing our values.",
+      "roleDescription" : "",
       "tasks"  : []
     },
     {
@@ -14,8 +14,8 @@
       "company" : "Clears",
       "period" : "March 2018 &ndash; September 2018",
       "location" : "Montreal, Canada",
-      "company description" : "CLEARS is a financial clearing company with offices based in New-York, Montreal and Hong-Kong.",
-      "role description" : "The product manager is in charge to coordinate the Montreal office squaretup, managing the different projects.",
+      "companyDescription" : "CLEARS is a financial clearing company with offices based in New-York, Montreal and Hong-Kong.",
+      "roleDescription" : "The product manager is in charge to coordinate the Montreal office squaretup, managing the different projects.",
       "tasks"  : [
         "Management and control of the delivery of multiple concurrent projects of all sizes with strict deadlines and quality requirements",
         "Delivers strategies which maximise project revenues, minimise costs, and ensure customer satisfaction",
@@ -26,7 +26,7 @@
         "Managing expectations of customer and company stakeholders",
         "Delegation of tasks and responsibilities to appropriate personnel",
         "Resolution of issues and conflicts within projects",
-        "Delivery of progress reports, proposals, requirements documentation, and presentations",
+        "Delivery of progress reports, proposals, requirements documentation, and presentations"
       ]
     }
   ]

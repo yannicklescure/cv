@@ -1,5 +1,14 @@
 [
   {
+    "role" : "Co-Founder",
+    "company" : "EUDPR (European Union Data Protection Representatives)",
+    "period" : "Dec 2018 – Present",
+    "location" : "Paris Area, France",
+    "companyDescription" : "Settled outside the European Union, our customers come from a wide range of industries, such as marketing companies, content providers or staffing solutions, however the list is not exhaustive.<br>They have in common the processing of personal data from EU residents, with the noteworthy exception they do not deal with sensitive data as defined by Article 9 of GDPR. In other words, our customers do not collect records of criminal convictions, or ethnicity, religious or philosophical beliefs, political opinions, trade union membership details, health, sex life, or sexual orientation data on a large scale.",
+    "roleDescription" : "",
+    "tasks"  : []
+  },
+  {
     "role" : "Country Manager",
     "company" : "BICRA",
     "period" : "September 2018",
@@ -53,10 +62,10 @@
     "tasks"  : []
   },
   {
-    "role" : "Volunteering at Evangel Pentecostal Church",
-    "company" : "",
+    "role" : "Volunteering",
+    "company" : "Evangel Pentecostal Church",
     "period" : "2016 May",
-    "location" : "",
+    "location" : "Montreal, Canada",
     "companyDescription" : "",
     "roleDescription" : "Management of 10+ custodians and security guards at 2016&rsquo;s Paradox Conference",
     "tasks"  : []

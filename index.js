@@ -43,7 +43,7 @@ fetch(url)
   console.log('parsed json', data);
   data.forEach(work => {
     let content = `
-      <p><strong>${work.role}</strong><br>${work.company}<br>${work.period} &ndash; ${work.location}</p>
+      <p><strong>${work.role}</strong> at ${work.company}<br>${work.period} &ndash; ${work.location}</p>
       <p class="text-muted">${work.companyDescription}</p>
       <p class="text-muted">${work.roleDescription}</p>
     `;

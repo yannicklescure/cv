@@ -42,5 +42,93 @@
       "Produce progress reports and update risks.",
       "Reflect and propose improvements to working methods."
     ]
+  },
+  {
+    "role" : "IT Project Manager",
+    "company" : "LC Social Status Inc.",
+    "period" : "June 2016 &ndash; December 2016",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "Development of web projects, growth monitoring traffic on the website, information management on social networks. Building business plan and sales strategy development along with technical documentations.",
+    "roleDescription" : "",
+    "tasks"  : []
+  },
+  {
+    "role" : "Volunteering at Evangel Pentecostal Church",
+    "company" : "",
+    "period" : "2016 May",
+    "location" : "",
+    "companyDescription" : "",
+    "roleDescription" : "Management of 10+ custodians and security guards at 2016&rsquo;s Paradox Conference",
+    "tasks"  : []
+  },
+  {
+    "role" : "IT Project Manager",
+    "company" : "Olton Marketing Inc.",
+    "period" : "February 2016 &ndash; june 2016",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "Development of web projects, management of international outsourced workers. Building business plan and sales strategy development along with technical documentations.",
+    "roleDescription" : "",
+    "tasks"  : []
+  },
+  {
+    "role" : "Volunteering for Church events",
+    "company" : "Evangel Pentecostal Church",
+    "period" : "April 2015 &ndash; November 2015",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "",
+    "roleDescription" : "",
+    "tasks"  : [
+      "Custodian and security guard at Evangel&rsquo;s marriage conference",
+      "Custodian and security guard at the PAOC church planting conference",
+      "Chef cook for 50+ mens at church men&rsquo;s up conference "
+    ]
+  },
+  {
+    "role" : "Assistant Operation Manager Volunteer",
+    "company" : "Evangel Pentecostal Church",
+    "period" : "April 2015 &ndash; October 2015",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "",
+    "roleDescription" : "Helping operation manager in purchasing of supplies, sharing my expertise during meetings with stakeholders and consulting of companies for the renovation of the church.",
+    "tasks"  : []
+  },
+  {
+    "role" : "Assistant Project Manager",
+    "company" : "Mott MacDonald Ltd Canada",
+    "period" : "January 2015 &ndash; April 2015",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "",
+    "roleDescription" : "Management and delivery of independent Certifier services on PPP project, bringing an analysis and an external opinion in disagreement between the Parties, shall prepare and issue monthly certificates and reports, performs audits and analyzes the qualities of work on advancements site.",
+    "tasks"  : []
+  },
+  {
+    "role" : "Project Manager",
+    "company" : "Bouygues Construction Priv&eacute;e",
+    "period" : "January 2013 &ndash; April 2014",
+    "location" : "Paris, France",
+    "companyDescription" : "",
+    "roleDescription" : "Construction of an art building, site access of a bank headquarter, team of 10 laborers and 2 engineering offices.",
+    "tasks"  : [
+      "Planning and organizing work of the laborers to build the basement in precast concrete",
+      "Provide feedback on the yield of workers",
+      "Determination, evaluation and risks management while striving to reach objectives"
+    ]
+  },
+  {
+    "role" : "Project Manager",
+    "company" : "Vinci Construction (GTM B&acirc;timent)",
+    "period" : "May 2008 &ndash; April 2012",
+    "location" : "Paris, France",
+    "companyDescription" : "",
+    "roleDescription" : "District renovation project, regulated all facets of the project, team of 6 foremen and 10 subcontractors.",
+    "tasks"  : [
+      "Monitors and manages site staffing levels to ensure foremen development and talent acquisition to achieve and maintain project operational requirements",
+      "Estimate project costs and seek financial alternatives",
+      "Manage progress, deadlines and budgets of project",
+      "Conduct change depending on the cost and the schedule as needed",
+      "Manage $6 million project phase budget",
+      "Manage with integrity, honesty and knowledge that promote the culture, values and mission of the company",
+      "Planning and organizing work of the laborers to realize in order to reach objectives"
+    ]
   }
 ]

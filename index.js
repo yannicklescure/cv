@@ -52,7 +52,7 @@ fetch(url)
   data.forEach((work, index) => {
     const id = index + 1;
     let content = `
-      <div id="work-${id}" class="d-print-none">
+      <div id="work-${id}">
       <p><strong>${work.role}</strong> at ${work.company}<br>${work.period} &ndash; ${work.location}</p>
       <p class="text-muted">${work.companyDescription} ${work.roleDescription}</p>
     `;
@@ -63,15 +63,10 @@ fetch(url)
       `;
     });
     content += `</ul></div>`;
-
+    document.querySelector('#work-experience').insertAdjacentHTML('beforeEnd', content);
     if (id === 4) {
-      document.querySelector('#collapseExperience').insertAdjacentHTML('afterEnd', content);
-      const printExperience = document.querySelector(`#work-${id}`);
-      printExperience.classList.remove('d-print-none');
-      printExperience.classList.add('d-none');
-      printExperience.classList.add('d-print-block');
-    } else {
-      document.querySelector('#work-experience').insertAdjacentHTML('beforeEnd', content);
+      console.log(id);
+      document.querySelector('#work-experience-print').insertAdjacentHTML('beforeEnd', content);
     }
   });
 

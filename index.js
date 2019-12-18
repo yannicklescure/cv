@@ -3,9 +3,12 @@ If you read that message, visit https://github.com/yannicklescure/`);
 
 if (window.innerWidth >= 768) {
   console.log(window.innerWidth);
+  const element = document.querySelector('#languages');
+  const rect = element.getBoundingClientRect();
+  console.log(rect.top, rect.right, rect.bottom, rect.left);
   const columnLeft = document.querySelector('#column-left');
   columnLeft.classList.add('sticky-top');
-  columnLeft.style = `width: 100%;height: calc(100vh);`;
+  columnLeft.style = `height: ${rect.bottom + 16}px;`;
 }
 
 const faSquares = document.querySelectorAll(".fa-square");

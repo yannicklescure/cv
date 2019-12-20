@@ -2,12 +2,10 @@ console.log(`Thank you for visiting my code.
 If you read that message, visit https://github.com/yannicklescure/`);
 
 if (window.innerWidth >= 768) {
-  console.log(window.innerWidth);
   const element = document.querySelector('#languages');
   const rect = element.getBoundingClientRect();
-  console.log(rect.top, rect.right, rect.bottom, rect.left);
+  // console.log(rect.top, rect.right, rect.bottom, rect.left);
   const columnLeft = document.querySelector('#column-left');
-  columnLeft.classList.add('sticky-top');
   columnLeft.style = `height: ${rect.bottom + 16}px;`;
 }
 

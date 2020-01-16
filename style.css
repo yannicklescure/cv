@@ -30,6 +30,12 @@
   font-family: 'Street Cred', sans-serif;
 }
 
+#experience:hover,
+#portfolio:hover {
+  /*text-decoration: underline;*/
+  cursor: pointer;
+}
+
 @media print {
   .border,
   .border-right {

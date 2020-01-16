@@ -1,18 +1,18 @@
 [
   {
-    "role" : "Content creator",
+    "role" : "Content creator and Web developer ",
     "company" : "Youtube",
     "period" : "November 2018 &ndash; Present",
     "location" : "Montreal, Canada",
     "companyDescription" : "",
     "roleDescription" : "Helping people cooking better at home. Showing step by step how to cook various recipes from all around the world.",
     "tasks"  : [
+      "Web development (yannicklescure.com)",
+      "Video editing",
+      "SEO strategist",
       "Cooking",
       "Acting",
-      "Video editing",
-      "Youtube SEO",
       "Community management",
-      "web development"
     ]
   },
   {

@@ -1,28 +1,49 @@
 [
   {
-    "role" : "Content creator",
+    "role" : "Full stack developer",
+    "company" : "Self-employed",
+    "period" : "2016 &ndash; Present",
+    "location" : "Montreal, Canada",
+    "companyDescription" : "",
+    "roleDescription" : "",
+    "tasks"  : [
+      "Meet with clients to gather requirements, write functional documents, design sites and outline schedules.",
+      "Manage Web projects with 2-5 developers.",
+      "Develop concepts, control project flow, and ensure deliverable milestones are met.",
+      "Design and implement frontend interfaces and backend services to assemble web applications based on user requirements.",
+      "Perform website design and development for projects in diverse fields, such as entertainment, educational, and others.",
+      "Build functional interfaces for mobile, dynamic web applications.",
+      "Write code that adheres to standards and best practices."
+    ]
+  },
+  {
+    "role" : "Content creator and Web developer",
     "company" : "Youtube",
     "period" : "November 2018 &ndash; Present",
     "location" : "Montreal, Canada",
     "companyDescription" : "",
     "roleDescription" : "Helping people cooking better at home. Showing step by step how to cook various recipes from all around the world.",
     "tasks"  : [
+      "Web development (yannicklescure.com)",
+      "Video editing",
+      "SEO strategist",
       "Cooking",
       "Acting",
-      "Video editing",
-      "Youtube SEO",
-      "Community management",
-      "web development"
+      "Community management"
     ]
   },
   {
-    "role" : "Co-Founder",
+    "role" : "Full Stack Developer and co-founder",
     "company" : "EUDPR (European Union Data Protection Representatives)",
     "period" : "December 2018",
     "location" : "Paris Area, France",
     "companyDescription" : "Settled outside the European Union, our customers come from a wide range of industries, such as marketing companies, content providers or staffing solutions, however the list is not exhaustive. They have in common the processing of personal data from EU residents, with the noteworthy exception they do not deal with sensitive data as defined by Article 9 of GDPR. In other words, our customers do not collect records of criminal convictions, or ethnicity, religious or philosophical beliefs, political opinions, trade union membership details, health, sex life, or sexual orientation data on a large scale.",
     "roleDescription" : "",
-    "tasks"  : []
+    "tasks"  : [
+      "Met with colleagues to gather requirements.",
+      "Write functional documents, design site and  scheduling.",
+      "Designed, developed and implemented frontend interfaces and backend services to assemble eudpr web application (eudpr.com) based on requirements."
+    ]
   },
   {
     "role" : "Country Manager",

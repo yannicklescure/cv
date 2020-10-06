@@ -2,12 +2,10 @@ console.log(`Thank you for visiting my code.
 If you read that message, visit https://github.com/yannicklescure/`);
 
 if (window.innerWidth >= 768) {
-  console.log(window.innerWidth);
   const element = document.querySelector('#languages');
   const rect = element.getBoundingClientRect();
-  console.log(rect.top, rect.right, rect.bottom, rect.left);
+  // console.log(rect.top, rect.right, rect.bottom, rect.left);
   const columnLeft = document.querySelector('#column-left');
-  columnLeft.classList.add('sticky-top');
   columnLeft.style = `height: ${rect.bottom + 16}px;`;
 }
 
@@ -40,11 +38,17 @@ const collapseBox = (anchor, box) => {
 const experienceAnchor = document.querySelector('a[href="#collapseExperience"]');
 const experienceBox = document.querySelector("#collapseExperience");
 collapseBox(experienceAnchor, experienceBox);
-
+const experienceBtn = document.querySelector('#experience');
+experienceBtn.addEventListener('click', () => {
+  experienceAnchor.click();
+});
 const portfolioAnchor = document.querySelector('a[href="#collapsePortfolio"]');
 const portfolioBox = document.querySelector("#collapsePortfolio");
 collapseBox(portfolioAnchor, portfolioBox);
-
+const portfolioBtn = document.querySelector('#portfolio');
+portfolioBtn.addEventListener('click', () => {
+  portfolioAnchor.click();
+});
 const url = "https://raw.githubusercontent.com/yannicklescure/cv/master/experience.json";
 
 console.log(url);

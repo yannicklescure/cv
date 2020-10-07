@@ -9,6 +9,10 @@
        url('https://raw.githubusercontent.com/yannicklescure/cv/master/fonts/street_cred/street_cred.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+body, main, #content, #sidebar {
+  min-height: 100vh;
+}
+
 /* Colors */
 /*.red { color: #ff0000; }
 .orange { color: #ffa500; }

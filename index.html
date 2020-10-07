@@ -33,31 +33,39 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col col-md-4 col-lg-3 py-3 bg-dark text-light border-right">
+      <div id="content" class="row">
+        <div id="sidebar" class="col col-md-4 col-lg-3 py-3 bg-dark text-light border-right">
           <div id="column-left" class="sticky-top">
             <div class="display-3 m-0 text-center text-uppercase">Yannick</div>
             <div class="display-3 m-0 text-center text-uppercase">Lescure</div>
-            <div class="my-3 d-none d-md-block d-print-none text-center">
-              <a href="https://raw.githubusercontent.com/yannicklescure/cv/master/YannickLescureCV-SoftwareDeveloper.pdf" class="btn btn-light">Download PDF <i class="fas fa-download"></i></a>
-            </div>
-            <div id="status" class="my-3">
-              <table>
+            <div id="status" class="my-2">
+              <div class="d-flex justify-content-center my-2">
+                <a href="mailto:yannick.lescure@gmail.com" target="_blank" class="mx-3 text-light text-decoration-none"><i class="fas fa-at"></i></a>
+                <a href="https://github.com/yannicklescure/" target="_blank" class="mx-3 text-light text-decoration-none"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yannicklescure/" target="_blank" class="mx-3 text-light text-decoration-none"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <div class="d-flex flex-column align-items-center my-2">
+                <div>
+                  <i class="fas fa-mobile"></i>
+                  <span>+1 (514) 577-6108</span>
+                </div>
+              </div>
+              <table class="d-none">
                 <tr>
                   <td class="pl-1 pr-3 text-center"><i class="fab fa-canadian-maple-leaf"></i></td>
-                  <td>Canadian permanent resident</td>
+                  <td>Canadian PR</td>
                 </tr>
                 <tr>
                   <td class="pl-1 pr-3 text-center"><i class="fas fa-at"></i></td>
-                  <td><a href="mailto:yannick.lescure@gmail.com" class="text-light text-decoration-none">yannick.lescure@gmail.com</a></td>
+                  <td><a href="mailto:yannick.lescure@gmail.com" class="text-light text-decoration-none">gmail.com</a></td>
                 </tr>
                 <tr>
                   <td class="pl-1 pr-3 text-center"><i class="fab fa-github"></i></td>
-                  <td><a href="https://github.com/yannicklescure/" class="text-light text-decoration-none">github.com/yannicklescure/</a></td>
+                  <td><a href="https://github.com/yannicklescure/" class="text-light text-decoration-none">github.com</a></td>
                 </tr>
                 <tr>
                   <td class="pl-1 pr-3 text-center"><i class="fab fa-linkedin"></i></td>
-                  <td><a href="https://www.linkedin.com/in/yannicklescure/" class="text-light text-decoration-none">linkedin.com/in/yannicklescure/</a></td>
+                  <td><a href="https://www.linkedin.com/in/yannicklescure/" class="text-light text-decoration-none">linkedin.com</a></td>
                 </tr>
                 <tr>
                   <td class="pl-1 pr-3 text-center"><i class="fas fa-mobile"></i></td>
@@ -65,57 +73,64 @@
                 </tr>
               </table>
             </div>
-            <div id="skills" class="my-3">
-              <p class="h2 text-capitalize">technical skills</p>
-              <table>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-github"></i></td>
-                  <td>Github</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-gem"></i></td>
-                  <td>Ruby</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-train"></i></td>
-                  <td>Rails</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-html5"></i></td>
-                  <td>HTML5</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-css3-alt"></i></td>
-                  <td>CSS/SCSS;&nbsp;Bootstrap</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-js"></i></td>
-                  <td>Javascript ES5,&nbsp;ES6;&nbsp;jQuery</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-vuejs"></i></td>
-                  <td>Vue JS</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-database"></i></td>
-                  <td>PostgreSQL</td>
-                </tr>
-                <tr>
-                  <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-server"></i></td>
-                  <td>Heroku / AWS</td>
-                </tr>
-              </table>
-            </div>
-            <div id="languages" class="my-3">
-              <p class="h2 text-capitalize">human languages</p>
-              <ul class="list-unstyled">
-                <li><i class="fas fa-square red text-light"></i><i class="fas fa-square orange text-light"></i><i class="fas fa-square yellow text-light"></i><i class="fas fa-square light-green text-light"></i><i class="fas fa-square green text-light"></i>&emsp;French</li>
-                <li><i class="fas fa-square red text-light"></i><i class="fas fa-square orange text-light"></i><i class="fas fa-square yellow text-light"></i><i class="fas fa-square light-green text-light"></i><i class="fas fa-square green text-light"></i>&emsp;English</li>
-                <li><i class="fas fa-square red text-light"></i><i class="far fa-square orange text-light"></i><i class="far fa-square yellow text-light"></i><i class="far fa-square light-green text-light"></i><i class="far fa-square green text-light"></i>&emsp;Spanish</li>
-              </ul>
-            </div>
-            <div class="my-3 p-3 border d-none d-print-block">
-              <p class="m-0 text-center"><u>Get all detailed experiences</u><br>yannicklescure.github.io/cv/</p>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="d-flex flex-column justify-content-center align-items-start">
+                <div id="skills" class="my-3">
+                  <p class="h2 text-capitalize">technical skills</p>
+                  <table>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-github"></i></td>
+                      <td>Github</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-gem"></i></td>
+                      <td>Ruby</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-train"></i></td>
+                      <td>Rails</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-html5"></i></td>
+                      <td>HTML5</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-css3-alt"></i></td>
+                      <td>CSS/SCSS;&nbsp;Bootstrap</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-js"></i></td>
+                      <td>Javascript ES5,&nbsp;ES6;&nbsp;jQuery</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fab fa-vuejs"></i></td>
+                      <td>Vue JS</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-database"></i></td>
+                      <td>PostgreSQL</td>
+                    </tr>
+                    <tr>
+                      <td class="pl-1 pr-3 text-center" valign="top"><i class="fas fa-server"></i></td>
+                      <td>Heroku / AWS</td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="languages" class="my-3">
+                  <p class="h2 text-capitalize">human languages</p>
+                  <ul class="list-unstyled">
+                    <li><i class="fas fa-square red text-light"></i><i class="fas fa-square orange text-light"></i><i class="fas fa-square yellow text-light"></i><i class="fas fa-square light-green text-light"></i><i class="fas fa-square green text-light"></i>&emsp;French</li>
+                    <li><i class="fas fa-square red text-light"></i><i class="fas fa-square orange text-light"></i><i class="fas fa-square yellow text-light"></i><i class="fas fa-square light-green text-light"></i><i class="fas fa-square green text-light"></i>&emsp;English</li>
+                    <li><i class="fas fa-square red text-light"></i><i class="far fa-square orange text-light"></i><i class="far fa-square yellow text-light"></i><i class="far fa-square light-green text-light"></i><i class="far fa-square green text-light"></i>&emsp;Spanish</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="my-3 d-print-none text-left">
+                <a href="https://raw.githubusercontent.com/yannicklescure/cv/master/YannickLescureCV-SoftwareDeveloper.pdf" class="btn btn-sm text-light">Download PDF <i class="fas fa-download"></i></a>
+              </div>
+              <div class="my-3 p-3 border d-none d-print-block">
+                <p class="m-0 text-center"><u>Get all detailed experiences</u><br>yannicklescure.github.io/cv/</p>
+              </div>
             </div>
           </div>
         </div>

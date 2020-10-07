@@ -36,6 +36,7 @@ body, main, #content, #sidebar {
 
 .display-3 {
   font-family: 'Street Cred', sans-serif;
+  font-size: calc(4.5rem * 0.9);
 }
 
 #experience:hover,

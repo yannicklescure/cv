@@ -13,6 +13,10 @@ body, main, #content, #sidebar {
   min-height: 100vh;
 }
 
+.icon-18 { font-size: 18px; }
+.icon-24 { font-size: 24px; }
+.icon-32 { font-size: 32px; }
+
 /* Colors */
 /*.red { color: #ff0000; }
 .orange { color: #ffa500; }
